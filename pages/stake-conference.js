@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 
-export default function Home() {
+export default function StakeConference() {
   return (
     <Layout>
       <Head>
-        <title>Snow Canyon Stake</title>
+        <title>Snow Canyon Stake Conference</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Section 1 */}
