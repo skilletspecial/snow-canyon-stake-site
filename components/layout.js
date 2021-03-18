@@ -7,15 +7,14 @@ export default function Layout({ children }) {
     <>
       <div>
         <Head>
-          {/* <script
+          <script
             async
             defer
-            data-domain="nickflynn.dev"
+            data-domain="snowcanyonstake.com"
             src="https://plausible.io/js/plausible.js"
-          ></script> */}
+          ></script>
         </Head>
       </div>
-      {/* <div className="max-w-screen-md px-8 mx-auto"> */}
       <div className="">
         <Header></Header>
         <div>{children}</div>
