@@ -64,20 +64,35 @@ export default function Home() {
             <div className="w-full px-4 pt-6 text-center md:w-8/12">
               <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
                 <div className="flex-auto px-4 py-5">
-                  <h6 className="text-2xl font-semibold">
-                    Countdown to Stake Conference
-                  </h6>
-                  <p className="mt-2 mb-4 text-3xl text-gray-600">
-                    [Add countdown timer here]
+                  <h6 className="text-2xl font-semibold">Stake Conference</h6>
+                  <p className="mt-2 mb-2 text-xl text-gray-600">
+                    The general session starts Sunday, March 28th at 10:00 AM
                   </p>
-                  <p>More information below...</p>
+                  <div className="flex items-center">
+                    <div className="mx-auto">
+                      <a
+                        className="inline-flex px-6 py-2 mt-4 text-lg text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-green-600"
+                        href="https://youtu.be/uNXj5KEJdXM"
+                        target="_blank"
+                      >
+                        English
+                      </a>
+                      <a
+                        className="inline-flex px-6 py-2 ml-4 text-lg text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-green-600"
+                        href="https://youtu.be/8I3xHGQGAoY"
+                        target="_blank"
+                      >
+                        Español
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center mt-32">
-            <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
+            {/* <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
                 Let God Prevail
               </h3>
@@ -91,9 +106,75 @@ export default function Home() {
               <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
                 [More from President Olson here...]
               </p>
+            </div> */}
+            <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
+              <h3 className="mb-2 text-3xl font-semibold leading-normal">
+                From the stake presidency
+              </h3>
+              <p className="mt-4 mb-4 text-lg leading-relaxed text-gray-900">
+                We feel it is such a blessing to be a member of the Snow Canyon
+                Stake of The Church of Jesus Christ of Latter-day Saints. A
+                “stake” is a group of local Church congregations organized for
+                many purposes. One of the main purposes of why the Lord
+                organizes His Church into stakes is explained in Doctrine and
+                Covenants 115:5-6. It says:
+              </p>
+              <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
+                “Verily I say unto you all: Arise and shine forth, that thy
+                light may be a standard for the nations;
+              </p>
+              <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
+                “And that the gathering together upon the land of Zion, and upon
+                her stakes, may be for a defense, and for a refuge from the
+                storm, and from wrath when it shall be poured out without
+                mixture upon the whole earth.”
+              </p>
+              <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
+                President Ezra Taft Benson explained that, “The Lord…reveals
+                that the stakes of Zion are to be ‘for a defense, and for a
+                refuge from the storm, and from wrath when it shall be poured
+                out without mixture upon the whole earth.’ Stakes are a defense
+                for the Saints from enemies both seen and unseen. The defense is
+                direction provided through priesthood channels that strengthens
+                testimony and promotes family solidarity and individual
+                righteousness” (“Strengthen Thy Stakes,” Ensign, January, 1991).
+              </p>
+              <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
+                We would hope that our Snow Canyon Stake can support individuals
+                and families as they strengthen their relationship with Jesus
+                Christ. We hope and pray that belonging to a stake of Zion will
+                allow you to both be strengthened by the faith and testimony of
+                others AND provide opportunities and encouragement for you to
+                strengthen others by your service and experiences.
+              </p>
+              <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
+                Our stake will be strong as we prioritize our relationship with
+                our Father in Heaven. And then as we let God prevail in our
+                individual lives, we will then seek to strengthen members of our
+                own family and also seek to serve our neighbors. We will invite
+                others to Jesus Christ by participating in the fullness of
+                Restored Gospel. The gospel is the “good news that Jesus Christ
+                has made a perfect atonement for mankind that will redeem all
+                mankind from the grave and reward each individual according to
+                his/her works” (Bible Dictionary, Gospel). We share our belief
+                that Jesus Christ possesses an infinite and perfect love for all
+                people. We believe that each soul is of great worth and we are
+                all children of Heavenly Parents. Life is challenging and we
+                hope that we can support each other through difficult times as
+                we become a true stake of Zion (Moses 7:18 teaches us that the
+                Lord will call his people Zion if we are of one heart and one
+                mind, if we dwell in righteousness and if there is no poor among
+                us). This is our goal as a stake. We love and appreciate you
+                all.
+              </p>
+              <p className="mt-0 mb-4 text-lg italic leading-relaxed text-gray-900">
+                The Snow Canyon Stake Presidency
+                <br></br>
+                Chad Olson, Ben Squires and Brett Reynolds
+              </p>
             </div>
 
-            <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
+            {/* <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
               <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-pink-600 rounded-lg shadow-lg">
                 <img
                   alt="..."
@@ -133,7 +214,7 @@ export default function Home() {
                   </a>
                 </blockquote>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -203,7 +284,7 @@ export default function Home() {
                         </p>
                         <a
                           className="inline-flex px-6 py-2 mt-4 text-lg text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-green-600"
-                          href="https://youtu.be/8I3xHGQGAoY"
+                          href="https://youtu.be/uNXj5KEJdXM"
                           target="_blank"
                         >
                           English
@@ -254,7 +335,7 @@ export default function Home() {
               </h2>
               <p className="mt-4 mb-4 text-xl leading-relaxed text-gray-400">
                 The stake presidency conducts temple recommend interviews each
-                Sunday from 2:00 - 3:00 PM at the stake offices. No appointment
+                Sunday from 2:00 - 3:30 PM at the stake offices. No appointment
                 needed.
               </p>
               <h3 className="text-xl text-white ">Stake Center Address</h3>
