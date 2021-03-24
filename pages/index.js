@@ -29,7 +29,7 @@ export default function Home() {
         <div className="container relative mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-full px-4 ml-auto mr-auto text-center lg:w-8/12">
-              <div className="pr-12">
+              <div className="">
                 <h1 className="text-5xl font-semibold leading-tight text-white">
                   Welcome to the St. George Utah Snow Canyon Stake
                 </h1>
@@ -58,14 +58,14 @@ export default function Home() {
         </div>
       </div>
       {/* Section 2 */}
-      <section className="pb-20 -mt-24 bg-gray-300">
+      <section className="pb-24 -mt-24 bg-gray-300">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-4 pt-6 text-center md:w-8/12">
               <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
                 <div className="flex-auto px-4 py-5">
                   <h6 className="text-2xl font-semibold">Stake Conference</h6>
-                  <p className="mt-2 mb-2 text-xl text-gray-600">
+                  <p className="mt-2 mb-2 text-lg text-gray-600 lg:text-xl">
                     The general session starts Sunday, March 28th at 10:00 AM
                   </p>
                   <div className="flex items-center">
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center mt-32">
+          <div className="flex flex-wrap items-center mt-12">
             {/* <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
                 Let God Prevail
@@ -219,7 +219,7 @@ export default function Home() {
         </div>
       </section>
       {/* Section 3 */}
-      <section className="relative py-20">
+      <section className="relative py-20 lg:pt-24 lg:pb-32">
         <div
           className="absolute top-0 left-0 right-0 bottom-auto w-full -mt-20 overflow-hidden pointer-events-none"
           style={{ height: "80px", transform: "translateZ(0)" }}
@@ -250,7 +250,7 @@ export default function Home() {
               />
             </div>
             <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
-              <div className="md:pr-12">
+              <div className="mt-8 lg:mt-0 md:pr-12">
                 <h3 className="text-3xl font-semibold">Stake Conference</h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
                   March 28th, 2021
@@ -327,9 +327,9 @@ export default function Home() {
           </svg>
         </div>
 
-        <div className="container px-4 mx-auto lg:pt-24 lg:pb-64">
+        <div className="container px-4 mx-auto lg:pt-24 lg:pb-24">
           <div className="flex flex-wrap justify-center text-center">
-            <div className="w-full px-4 lg:w-6/12">
+            <div className="w-full px-4 mt-10 lg:w-6/12 lg:mt-0">
               <h2 className="text-4xl font-semibold text-white">
                 Temple Recommend Interviews
               </h2>
