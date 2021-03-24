@@ -264,9 +264,9 @@ export default function Home() {
                         </h4>
                         <p className="mt-4">
                           Will be conducted in person and via Zoom. Those
-                          invited to attend will an email with more information.
-                          Please contact the stake executive secretary with any
-                          questions.
+                          invited to attend will receive an email with more
+                          information. Please contact the stake executive
+                          secretary with any questions.
                         </p>
                       </div>
                     </div>
