@@ -91,7 +91,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center mt-12">
+          <div className="flex flex-wrap mt-12">
             {/* <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
               <h3 className="mb-2 text-3xl font-semibold leading-normal">
                 Let God Prevail
@@ -147,6 +147,9 @@ export default function Home() {
                 others AND provide opportunities and encouragement for you to
                 strengthen others by your service and experiences.
               </p>
+            </div>
+
+            <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
               <p className="mt-0 mb-4 text-lg leading-relaxed text-gray-900">
                 Our stake will be strong as we prioritize our relationship with
                 our Father in Heaven. And then as we let God prevail in our
@@ -172,6 +175,13 @@ export default function Home() {
                 <br></br>
                 Chad Olson, Ben Squires and Brett Reynolds
               </p>
+              <div className="relative flex flex-col w-full min-w-0 mb-6 rounded-lg shadow-lg">
+                <img
+                  alt="..."
+                  src="./images/stake-presidency.jpg"
+                  className="w-full align-middle rounded-lg"
+                />
+              </div>
             </div>
 
             {/* <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
